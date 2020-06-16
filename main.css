@@ -1,0 +1,83 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Rationale', sans-serif;
+}
+.header{
+    background:#DB991A ;
+    display: flex;
+    width: 100%;
+    height:80px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    flex-grow: 1;
+    padding: 20px;
+    font-family: ;
+    color: white;
+    font-size: 30px;
+}
+.input-header{
+    height: 25px;
+    width: 700px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    font-size: 24px;
+    color: gray;
+    
+}
+.input-header:focus{
+    box-shadow: 1px 1px rgba(22, 18, 18, 0.9);
+    
+}
+.icon{
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    
+}
+.container{
+    padding: 20px;
+    text-align: center;
+    
+}
+.title{
+    font-size: 60px;
+}
+.container-cards{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.card{
+    margin:  35px;
+    width: 300px;
+    padding: 30px;
+    box-shadow: 1px 4px 4px rgba(22, 18, 18, 0.9);
+    
+}
+.precio{
+    font-size: 40px;
+    font-weight: 700;
+}
+.button{
+    font-family: Rationale;
+    font-size: 48px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background:  #DB991A;
+    height: 87px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    outline:none;
+}

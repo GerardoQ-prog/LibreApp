@@ -1,129 +1,120 @@
-
-
-body{
-    margin: 0;
-    font-family: 'Rationale', sans-serif;
+body {
+  margin: 0;
+  font-family: "Rationale", sans-serif;
 }
-.header{
-    background:#DB991A ;
-    display: flex;
-    width: 100%;
-    height:80px;
-    align-items: center;
-    justify-content: center;
+.header {
+  background: #db991a;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
 }
-.logo{
-    flex-grow: 1;
-    padding: 20px;
-    font-family: ;
-    color: white;
-    font-size: 30px;
+.logo {
+  flex-grow: 1;
+  padding: 20px;
+  font-family: ;
+  color: white;
+  font-size: 30px;
 }
-.input-header{
-    height: 25px;
-    width: 700px;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    margin: 20px;
-    font-size: 24px;
-    color: gray;
-    
+.input-header {
+  height: 25px;
+  width: 700px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 20px;
+  font-size: 24px;
+  color: gray;
 }
-.input-header:focus{
-    box-shadow: 1px 1px rgba(22, 18, 18, 0.9);
-    
+.input-header:focus {
+  box-shadow: 1px 1px rgba(22, 18, 18, 0.9);
 }
-.icon{
-    font-size: 40px;
-    color: white;
-    padding: 10px;
-    
+.icon {
+  font-size: 40px;
+  color: white;
+  padding: 10px;
 }
-.container{
-    padding: 20px;
-    text-align: center;
-    
+.container {
+  padding: 20px;
+  text-align: center;
 }
-.title{
-    font-size: 60px;
+.title {
+  font-size: 60px;
 }
-.container-cards{
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-    
+.container-cards {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.card{
-    margin:  35px;
-    width: 300px;
-    padding: 30px;
-    box-shadow: 1px 4px 4px rgba(22, 18, 18, 0.9);
-    
+.card {
+  margin: 35px;
+  width: 300px;
+  padding: 30px;
+  box-shadow: 1px 4px 4px rgba(22, 18, 18, 0.9);
 }
-.precio{
-    font-size: 40px;
-    font-weight: 700;
+.precio {
+  font-size: 40px;
+  font-weight: 700;
 }
-.button{
-    font-family: Rationale;
-    font-size: 48px;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    background:  #DB991A;
-    height: 87px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    outline:none;
+.button {
+  font-family: Rationale;
+  font-size: 48px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  background: #db991a;
+  height: 87px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
-.section{
-    background-image: url(./img/section.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    color: white;   
-    padding: 30px;
+.section {
+  background-image: url(./img/section.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: white;
+}
 
+.titulo-contacto {
+  font-size: 50px;
+  margin: 0px 0px 10px 30px;
+  padding-top: 10px;
+  height: 70px;
 }
-.correo{
-    
-    display: flex;
-    flex-direction: column;
-    
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.label{
-    height: 50px;
-    width: 100%;
-    border: none;
-    outline: none;
+
+.palabra {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  align-self: flex-start;
+  margin-left: 272px;
 }
-.label1{
-    
-    width: 100%;
-    border: none;
-    outline: none;
+
+.asunto {
+  font-size: 20px;
+  width: 800px;
+  height: 30px;
 }
-.palabra{
-   position: relative;
-   
-   outline: none;
+.mensaje {
+  font-size: 20px;
+  width: 800px;
+  height: 100px;
 }
-.palabra1{
-    font-size: 12px;
-    outline: none;
-    
-}
-.correo-padre{
-    width: 1000px;
-    font-size: 40px;
-    margin: 0 auto;
+
+.boton-enviar {
+  margin-top: 10px;
+  font-size: 20px;
 }

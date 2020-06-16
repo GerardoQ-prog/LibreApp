@@ -81,3 +81,49 @@ body{
     text-decoration: none;
     outline:none;
 }
+
+.section{
+    background-image: url(./img/section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;   
+    padding: 30px;
+
+}
+.correo{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.label{
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.label1{
+    
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.palabra{
+   position: relative;
+   
+   outline: none;
+}
+.palabra1{
+    font-size: 12px;
+    outline: none;
+    
+}
+.correo-padre{
+    width: 1000px;
+    font-size: 40px;
+    margin: 0 auto;
+}
